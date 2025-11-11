@@ -136,6 +136,7 @@ Se iniciará en:
 - API → http://127.0.0.1:8000
 - Swagger → http://127.0.0.1:8000/docs
 - ReDoc → http://127.0.0.1:8000/redoc
+- Postman → Importar archivo `PokeAPI.postman_collection.json` en Postman
 
 ---
 
@@ -344,8 +345,9 @@ Solución: renovar desde el login en el backend.
 | Instalar deps | `uv sync` |
 | Backend | `uv run uvicorn app.main:app --reload` |
 | Frontend | `uv run streamlit run main.py` |
+| MCP-Server | `uv run uvicorn main:app --reload --port 5000` |
 | Variables | copiar `.env.example` → `.env` |
-| Docs API | `/docs` y `/redoc` |
+| Docs API | `/docs` , `/redoc` y `Postman` |
 
 ---
 
